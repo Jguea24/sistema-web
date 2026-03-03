@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    // Numero oficial del consultorio (formato internacional sin espacios)
+    'clinic_phone' => '593000000000',
+
+    // Opciones: simulate | twilio | meta | 360dialog
+    'provider' => 'simulate',
+
+    // Codigo de pais para normalizar telefonos locales (ej: Ecuador 593)
+    'default_country_code' => '593',
+
+    // Twilio
+    'twilio_account_sid' => '',
+    'twilio_auth_token' => '',
+    'twilio_from' => '',
+
+    // Meta Cloud API
+    'meta_token' => '',
+    'meta_phone_number_id' => '',
+    'meta_api_version' => 'v20.0',
+
+    // 360dialog
+    'd360_api_key' => '',
+    'd360_base_url' => 'https://waba-v2.360dialog.io',
+
+    // General
+    'request_timeout' => 20,
+];

@@ -114,7 +114,7 @@ function admin_header(string $title, string $active = 'dashboard', string $subti
           <a href="cambiar_password.php" class="btn btn-sm btn-outline-secondary">
             <i class="bi bi-key me-1"></i>Contrasena
           </a>
-          <a href="logout.php" class="btn btn-sm btn-danger">
+          <a href="logout.php" class="btn btn-sm btn-danger js-confirm" data-confirm="Quieres salir? Aceptar para salir o Cancelar para quedarte.">
             <i class="bi bi-box-arrow-right me-1"></i>Salir
           </a>
         </div>

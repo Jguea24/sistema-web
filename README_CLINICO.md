@@ -1,5 +1,13 @@
 # Sistema Clinico - Guia Rapida
 
+## Estructura de carpetas
+
+- `/admin`: panel administrativo.
+- `/assets`: CSS, JS y archivos subidos (hero, servicios, equipo).
+- `/config`: configuraciones (`whatsapp.php`).
+- `/services`: logica de negocio (recordatorios/WhatsApp).
+- `/workers`: procesos CLI (cola de WhatsApp).
+
 ## 1) Preparar base de datos
 
 Opcion A (recomendada): abrir en navegador:
@@ -9,6 +17,12 @@ Opcion A (recomendada): abrir en navegador:
 Opcion B (MySQL):
 
 - ejecutar `database.sql` en la base `sistema_web`.
+
+### Produccion (cPanel)
+
+- crear base y usuario MySQL en cPanel.
+- asignar todos los permisos del usuario a la base.
+- editar `db.php` con los datos reales (`host`, `name`, `user`, `pass`).
 
 ## 2) Acceso administrativo
 
