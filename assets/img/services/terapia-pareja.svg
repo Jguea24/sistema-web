@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Terapia de Pareja</title>
+  <desc id="desc">Imagen ilustrativa para terapia de pareja.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5f7f4"/>
+      <stop offset="100%" stop-color="#f6fcfb"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="24" fill="url(#bg)"/>
+  <circle cx="255" cy="160" r="40" fill="#1f66c1"/>
+  <circle cx="385" cy="160" r="40" fill="#1cb5a3"/>
+  <path d="M170 314c0-56 36-90 85-90s85 34 85 90v22H170z" fill="#164a8a" opacity="0.92"/>
+  <path d="M300 314c0-56 36-90 85-90s85 34 85 90v22H300z" fill="#159887" opacity="0.95"/>
+  <path d="M298 236l22 20 22-20c20-18 51-4 51 23 0 15-7 28-20 40l-53 49-53-49c-13-12-20-25-20-40 0-27 31-41 51-23z" fill="#ff6488" opacity="0.85"/>
+</svg>
